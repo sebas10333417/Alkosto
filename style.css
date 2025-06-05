@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #004797;
+    max-width: 100%;
+    padding: 60px;
+
+}
+
+ul li {
+    display: flex;
+    gap: 20px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-links{
+    justify-items: end;
+
+    
+}
+.buscar_encabezado{
+    padding-left: 5px;
+    padding-right: 150px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
