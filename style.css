@@ -1,35 +1,105 @@
 *{
+    box-sizing: 0;
     margin: 0;
     padding: 0;
 }
+.encabezado {
 
-.navbar{
     background-color: #004797;
-    max-width: 100%;
-    padding: 60px;
-
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    gap: 60px;
 }
 
-ul li {
+.img-logo {
+    width: 250px;
+}
+
+.nav-links {
     display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.buscar_encabezado {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.opciones {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
-ul li a{
+.contenedor1 {
+    margin-top: 70px;
+    display: flex;
+    gap: 40px;
+}
+
+.opciones-cuenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opciones-cuenta a {
+    text-decoration: none;
     color: white;
-    text-decoration: none;
+}
+
+.color{
+    color: white;
+}
+
+.productos{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: #004797;
+    justify-content: center;
+}
+
+.links3{
+    margin-top: 1px;
 
 }
-.nav-links{
-    justify-items: end;
 
-    
+.img_productos{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    margin-top: 8px;
 }
-.buscar_encabezado{
-    padding-left: 5px;
-    padding-right: 150px;
+
+.img_promo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.elementos{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.objetos img{
+    margin-top: 20px;
     background-color: white;
-    border-radius: 5px;
-    text-decoration: none;
+    width: 100px;
+    height: 120px;
+    margin-left: 15px;
+    border-radius: 10px;
 }
+
 
